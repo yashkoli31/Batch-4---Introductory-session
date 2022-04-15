@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get yoy Degree</title>
+        <style type=text/css>   
+            body   
+            {  
+            height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;  
+            font-family: sans-serif; 
+            ; 
+            }  
+            header {  
+            background-color: orange;  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            box-shadow: 0 0 25px 0 black;  
+            }  
+            header * {  
+            display: inline; 
+            float: right; 
+            }  
+            header li {  
+            margin: 20px;  
+            }  
+            header li a {  
+            color: rgb(235, 235, 247);  
+            text-decoration: none; 
+
+            }
+
+
+            </style>   
+
+        
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+
+    </head>
+    <body>
+        <nav>  
+            <ul>  
+            <li>  
+            <a href="https://www.fcbarcelona.com/en/"> Home </a>  
+            </li>  
+            <li>  
+            <a href="https://www.fcbarcelona.com/en/football/first-team/news"> First Team </a>  
+            </li>  
+            <li>  
+            <a href="https://www.fcbarcelona.com/en/football/first-team/photos"> Photos </a>  
+            </li>  
+             
+            <li>  
+            <a href="https://culers.fcbarcelona.com/auth/oauth/authenticate?response_type=code&client_id=02c1ef65-e3e6-4390-aa2c-9fbeb2166384&redirect_uri=https:%2F%2Fsso.fcbarcelona.com%2Fsso-redirect&post_logout_uri=https:%2F%2Fsso.fcbarcelona.com%2Fsso-logout-redirect&scope=openid%20member_write&lang=en-US&flow_id=register_only&ottRequest=0"> Join Us </a>  
+            </li>  
+            </ul>  
+            </nav>  
+        <div class="main">
+            <div class="register">
+                <h2>Join The Barca Academy</h2>
+                <form id="register" method="post">
+                    <label>First Name :</label>
+                    <br>
+                    <input type="text" name="fname" id="name"
+                    placeholder="Enter Your First Name">
+                    <br><br>
+                    <label>Last Name :</label>
+                    <br>
+                    <input type="text" name="lname" id="name"
+                    placeholder="Enter Your Last Name">
+                    <br><br>
+                    <label>Your Email Address</label>
+                    <br>
+                    <input type="email" name="email" id="name" placeholder="Email Id">
+                    <br><br>
+                    <label>Phone Number :</label>
+                    <br>
+                    <input type="number" name="phone" id="name" placeholder="Enter a valid phone number">
+                    <br><br>
+                    <input type="submit" value="Submit" name="submit" id="submit">
+
+                </form>
+
+            </div>
+            
+        </div>
+    </body>
+</html>
